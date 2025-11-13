@@ -132,6 +132,10 @@ You should see the Laboratory Management System interface!
 
 The application uses SQLite database which creates a file named `lab_management.db` in your project root directory. This file contains all your data.
 
+### ER Diagram
+<img src="https://i.postimg.cc/CKYkS30L/er.jpg
+" alt="ER Diagram" width="600">
+
 ### Database Schema
 
 The database includes the following tables based on the ER diagram:
@@ -158,6 +162,10 @@ The backend provides RESTful API endpoints for each entity:
 - `POST /api/{entity}` - Create new record
 - `PUT /api/{entity}/:id` - Update record
 - `DELETE /api/{entity}/:id` - Delete record
+
+## UI Snapshots
+<img src="https://i.postimg.cc/fbKXL8WW/snap1.png" alt="ER Diagram" width="600">
+<img src="https://i.postimg.cc/3wBpRtrJ/snap2.png" alt="ER Diagram" width="600">
 
 ## Troubleshooting
 
@@ -228,5 +236,6 @@ This project is created for educational purposes (DBMS Practical Project).
 
 ---
 
-**Created for DBMS Practical Project**  
-**Date**: November 2025
+*Created for DBMS Practical Project* <br>
+*Authors*: Sauvik Das, Akash Adhya <br>
+*Date*: 14th November, 2025
